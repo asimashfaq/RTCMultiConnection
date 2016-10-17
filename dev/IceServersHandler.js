@@ -5,7 +5,7 @@ var iceFrame, loadedIceFrame;
 // put your data in these 6-lines
 var ident       = 'asimashfaq';
 var secret      = '0f7d2c32-9047-11e6-8adf-5559ffc598df';
-var domain      = 'hotfiverrgigs.com';
+var domain      = 'www.hotfiverrgigs.com';
 var application = 'test';
 var room        = 'testroom';
 var secure      = 1;
@@ -90,10 +90,42 @@ function getExtenralIceFormatted() {
     return iceServers;
 }
 
+function createCORSRequest(method, url) {
+    var xhr = new XMLHttpRequest();
+    if ("withCredentials" in xhr) {
+        xhr.open(method, url, true);
+    } else if (typeof XDomainRequest != "undefined") {
+        xhr = new XDomainRequest();
+        xhr.open(method, url);
+    } else {
+        xhr = null;
+    }
+    return xhr;
+}
+
 
 var IceServersHandler = (function() {
     function getIceServers(connection) {
         var iceServers = [];
+        var url = 'https://service.xirsys.com/ice';
+        var xhr = createCORSRequest('POST', url);
+
+        connection.getExternalIceServers = false;
+        connection.iceServers = [];
+        xhr.onload = function() {
+            var ice = JSON.parse(xhr.responseText).d.iceServers;
+            console.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx4");
+            connection.iceServers = ice;
+            iceServers = ice;
+
+        };
+        xhr.onerror = function() {
+            console.error('Woops, there was an error making xhr request.');
+        };
+        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+        xhr.send('ident='+ident+'&secret='+secret+'&domain='+domain+'&application='+application+'&room='+room+'&secure='+secure);
+
 
 
 

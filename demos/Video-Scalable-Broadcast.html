@@ -181,8 +181,7 @@
             // this RTCMultiConnection object is used to connect with existing users
             var connection = initRTCMultiConnection();
 
-            connection.getExternalIceServers = false;
-
+          
             var broadcastId = '';
             if(localStorage.getItem('rmc-broadcast-id')) {
                 broadcastId = localStorage.getItem('rmc-broadcast-id');

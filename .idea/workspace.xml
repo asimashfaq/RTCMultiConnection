@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f1f7f8c-7c42-413e-82cb-4941456b112d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RTCMultiConnection.js" afterPath="$PROJECT_DIR$/RTCMultiConnection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/Scalable-Broadcast.html" afterPath="$PROJECT_DIR$/demos/Scalable-Broadcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/Video-Conferencing.html" afterPath="$PROJECT_DIR$/demos/Video-Conferencing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/Video-Scalable-Broadcast.html" afterPath="$PROJECT_DIR$/demos/Video-Scalable-Broadcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/video-broadcasting.html" afterPath="$PROJECT_DIR$/demos/video-broadcasting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/IceServersHandler.js" afterPath="$PROJECT_DIR$/dev/IceServersHandler.js" />
     </list>
     <ignored path="RTCMultiConnection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,13 +28,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Video-Scalable-Broadcast.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Video-Scalable-Broadcast.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/Video-Scalable-Broadcast.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="125" column="58" selection-start-line="125" selection-start-column="58" selection-end-line="125" selection-end-column="58" />
+            <state relative-caret-position="2169">
+              <caret line="232" column="33" selection-start-line="232" selection-start-column="27" selection-end-line="232" selection-end-column="33" />
               <folding>
-                <marker date="1476682595000" expanded="true" signature="6351:6361" placeholder="..." />
+                <element signature="n#style#0;n#header#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1476695312000" expanded="true" signature="6306:6316" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video-broadcasting.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/video-broadcasting.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="80" column="55" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scalable-Broadcast.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demos/Scalable-Broadcast.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+              <folding>
+                <marker date="1476696382000" expanded="true" signature="7062:7072" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IceServersHandler.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/IceServersHandler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RTCMultiConnection.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RTCMultiConnection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="690" column="3" selection-start-line="690" selection-start-column="3" selection-end-line="702" selection-end-column="0" />
+              <folding>
+                <marker date="1476693613000" expanded="true" signature="197160:197170" placeholder="..." />
+                <marker date="1476693613000" expanded="true" signature="197270:197285" placeholder="..." />
+                <marker date="1476693613000" expanded="true" signature="197432:197442" placeholder="..." />
+                <marker date="1476693613000" expanded="true" signature="197545:197597" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tips-tricks.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/tips-tricks.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1458">
+              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecordRTC-and-RTCMultiConnection.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v2.2.2/demos/RecordRTC-and-RTCMultiConnection.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-890">
+              <caret line="158" column="31" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="31" />
+              <folding>
+                <marker date="1476682595000" expanded="true" signature="10172:10190" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -40,6 +114,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demos/Video-Scalable-Broadcast.html" />
+        <option value="$PROJECT_DIR$/dev/IceServersHandler.js" />
+        <option value="$PROJECT_DIR$/demos/video-broadcasting.html" />
+        <option value="$PROJECT_DIR$/demos/Video-Conferencing.html" />
+        <option value="$PROJECT_DIR$/demos/Scalable-Broadcast.html" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
     <gruntfile path="$PROJECT_DIR$/Gruntfile.js" />
@@ -91,6 +176,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTCMultiConnection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTCMultiConnection" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTCMultiConnection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTCMultiConnection" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -99,6 +208,32 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -110,23 +245,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476692729754</updated>
-      <workItem from="1476692731853" duration="77000" />
+      <workItem from="1476692731853" duration="1326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77000" />
+    <option name="totallyTimeSpent" value="1326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1844" height="965" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2533482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -150,12 +285,78 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docs/tips-tricks.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v2.2.2/demos/RecordRTC-and-RTCMultiConnection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-890">
+          <caret line="158" column="31" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="31" />
+          <folding>
+            <marker date="1476682595000" expanded="true" signature="10172:10190" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RTCMultiConnection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="690" column="3" selection-start-line="690" selection-start-column="3" selection-end-line="702" selection-end-column="0" />
+          <folding>
+            <marker date="1476693613000" expanded="true" signature="197160:197170" placeholder="..." />
+            <marker date="1476693613000" expanded="true" signature="197270:197285" placeholder="..." />
+            <marker date="1476693613000" expanded="true" signature="197432:197442" placeholder="..." />
+            <marker date="1476693613000" expanded="true" signature="197545:197597" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/IceServersHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demos/Video-Scalable-Broadcast.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="125" column="58" selection-start-line="125" selection-start-column="58" selection-end-line="125" selection-end-column="58" />
+        <state relative-caret-position="2169">
+          <caret line="232" column="33" selection-start-line="232" selection-start-column="27" selection-end-line="232" selection-end-column="33" />
           <folding>
-            <marker date="1476682595000" expanded="true" signature="6351:6361" placeholder="..." />
+            <element signature="n#style#0;n#header#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1476695312000" expanded="true" signature="6306:6316" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/Video-Conferencing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/video-broadcasting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="80" column="55" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/Scalable-Broadcast.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding>
+            <marker date="1476696382000" expanded="true" signature="7062:7072" placeholder="..." />
           </folding>
         </state>
       </provider>
