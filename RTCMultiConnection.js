@@ -700,10 +700,10 @@
         var xhr = createCORSRequest('POST', url);
         xhr.onload = function() {
             var ice = JSON.parse(xhr.responseText).d.iceServers;
-                consloe.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx4");
+                console.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx4");
             connection.iceServers = ice;
             iceServers = ice;
-              consloe.log(ice);
+              console.log(ice);
         };
         xhr.onerror = function() {
             console.error('Woops, there was an error making xhr request.');
@@ -714,7 +714,7 @@
 
 
 
-        consloe.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx3");
+        console.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx3");
         connection.candidates = {
             host: true,
             stun: true,
