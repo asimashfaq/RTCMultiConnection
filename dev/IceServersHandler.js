@@ -2,6 +2,15 @@
 
 var iceFrame, loadedIceFrame;
 
+// put your data in these 6-lines
+var ident       = 'asimashfaq';
+var secret      = '0f7d2c32-9047-11e6-8adf-5559ffc598df';
+var domain      = 'stackjunction.com.pk';
+var application = 'test';
+var room        = 'testroom';
+var secure      = 0;
+
+
 function loadIceFrame(callback, skip) {
     if (loadedIceFrame) return;
     if (!skip) return loadIceFrame(callback, true);
@@ -81,22 +90,41 @@ function getExtenralIceFormatted() {
     return iceServers;
 }
 
+function createCORSRequest(method, url) {
+    var xhr = new XMLHttpRequest();
+    if ("withCredentials" in xhr) {
+        xhr.open(method, url, true);
+    } else if (typeof XDomainRequest != "undefined") {
+        xhr = new XDomainRequest();
+        xhr.open(method, url);
+    } else {
+        xhr = null;
+    }
+    return xhr;
+}
+
+
 var IceServersHandler = (function() {
     function getIceServers(connection) {
         var iceServers = [];
 
-        iceServers.push(getSTUNObj('stun:stun.l.google.com:19302'));
-        iceServers.push(getTURNObj('turn:webrtcweb.com:80', 'muazkh', 'muazkh'));
-        iceServers.push(getTURNObj('turn:webrtcweb.com:443', 'muazkh', 'muazkh'));
 
-        if (window.RMCExternalIceServers) {
-            iceServers = iceServers.concat(getExtenralIceFormatted());
-        } else if (typeof window.getExternalIceServers !== 'undefined' && window.getExternalIceServers == true) {
-            connection.iceServers = iceServers;
-            window.iceServersLoadCallback = function() {
-                connection.iceServers = connection.iceServers.concat(getExtenralIceFormatted());
-            };
-        }
+        var url = 'https://service.xirsys.com/ice';
+        var xhr = createCORSRequest('POST', url);
+        xhr.onload = function() {
+            var ice = JSON.parse(xhr.responseText).d.iceServers;
+            connection.iceServers = ice;
+            iceServers = ice;
+        };
+        xhr.onerror = function() {
+            console.error('Woops, there was an error making xhr request.');
+        };
+        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+        xhr.send('ident='+ident+'&secret='+secret+'&domain='+domain+'&application='+application+'&room='+room+'&secure='+secure);
+
+
+
 
         return iceServers;
     }
