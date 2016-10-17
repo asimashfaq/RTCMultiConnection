@@ -714,12 +714,15 @@
 
         var url = 'https://service.xirsys.com/ice';
         var xhr = createCORSRequest('POST', url);
+
+        connection.getExternalIceServers = false;
+         connection.iceServers = [];
         xhr.onload = function() {
             var ice = JSON.parse(xhr.responseText).d.iceServers;
                 console.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx4");
             connection.iceServers = ice;
-            iceServers = ice;
-              console.log(ice);
+            console.log(ice);
+
         };
         xhr.onerror = function() {
             console.error('Woops, there was an error making xhr request.');
