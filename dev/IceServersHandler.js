@@ -109,20 +109,7 @@ var IceServersHandler = (function() {
         var iceServers = [];
 
 
-        var url = 'https://service.xirsys.com/ice';
-        var xhr = createCORSRequest('POST', url);
-        xhr.onload = function() {
-            var ice = JSON.parse(xhr.responseText).d.iceServers;
-            connection.iceServers = ice;
-            iceServers = ice;
-        };
-        xhr.onerror = function() {
-            console.error('Woops, there was an error making xhr request.');
-        };
-        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-
-        xhr.send('ident='+ident+'&secret='+secret+'&domain='+domain+'&application='+application+'&room='+room+'&secure='+secure);
-
+      
 
 
 
