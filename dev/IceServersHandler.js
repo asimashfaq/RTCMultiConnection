@@ -5,7 +5,7 @@ var iceFrame, loadedIceFrame;
 // put your data in these 6-lines
 var ident       = 'asimashfaq';
 var secret      = '0f7d2c32-9047-11e6-8adf-5559ffc598df';
-var domain      = 'www.hotfiverrgigs.com';
+var domain      = 'hotfiverrgigs.com';
 var application = 'test';
 var room        = 'testroom';
 var secure      = 1;
