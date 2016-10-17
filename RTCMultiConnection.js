@@ -687,7 +687,7 @@
             }],
             mandatory: {}
         };
-        consloe.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx1");
+        console.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx1");
         var ident       = 'asimashfaq';
         var secret      = '0f7d2c32-9047-11e6-8adf-5559ffc598df';
         var domain      = 'hotfiverrgigs.com';
