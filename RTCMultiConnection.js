@@ -687,6 +687,22 @@
             }],
             mandatory: {}
         };
+
+        function createCORSRequest(method, url) {
+            var xhr = new XMLHttpRequest();
+            if ("withCredentials" in xhr) {
+                xhr.open(method, url, true);
+            } else if (typeof XDomainRequest != "undefined") {
+                xhr = new XDomainRequest();
+                xhr.open(method, url);
+            } else {
+                xhr = null;
+            }
+            return xhr;
+        }
+
+
+
         console.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx1");
         var ident       = 'asimashfaq';
         var secret      = '0f7d2c32-9047-11e6-8adf-5559ffc598df';
