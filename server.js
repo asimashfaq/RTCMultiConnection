@@ -3,12 +3,12 @@
 // Documentation  - github.com/muaz-khan/RTCMultiConnection
 var isUseHTTPs = false && !(!!process.env.PORT || !!process.env.IP);
 
-var port = process.env.PORT || 9001;
+var port = process.env.PORT || 9000;
 
 try {
     var _port = require('./config.json').port;
 
-    if (_port && _port.toString() !== '9001') {
+    if (_port && _port.toString() !== '9000') {
         port = parseInt(_port);
     }
 } catch (e) {}
